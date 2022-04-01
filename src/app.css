@@ -61,7 +61,7 @@ body {
 		#c2c9cf,
 		#c2c9cf
 	); */
-	background-image: url('./bgpix.png');
+	background-image: url('/bgpix.png');
 	background-repeat: repeat;
 	background-size: 4800% 100%;
 
