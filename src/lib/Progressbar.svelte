@@ -36,6 +36,7 @@
 	.bar {
 		margin: 2px 25px;
 		background: #dbe1e6;
+		border: 1px solid white;
 		.progress {
 			height: inherit;
 			min-width: 10px;

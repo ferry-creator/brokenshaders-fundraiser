@@ -12,7 +12,30 @@
 		const buffer = b
 
 		const cm = matrix(canvas, buffer, {
-			chars: ['A', 'B', 'C', 'D', 'E', 'F', '0', '1', '2', '4', '8', '/', '+', '~'],
+			chars: [
+				'A',
+				'B',
+				'C',
+				'D',
+				'E',
+				'F',
+				'0',
+				'1',
+				'2',
+				'3',
+				'3',
+				'3',
+				'3',
+				'3',
+				'4',
+				'8',
+				'/',
+				'+',
+				'~',
+				'*',
+				'▀',
+				'▌'
+			],
 			color: '#B8FF2C',
 			background: 'rgba(0,0,0,0.1)',
 			exit: false,
