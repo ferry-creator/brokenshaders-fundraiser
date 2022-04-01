@@ -1,0 +1,12 @@
+// https://www.npmjs.com/package/font-face-generator
+
+@import '../../node_modules/font-face-generator/mixin.scss';
+
+@include font-face(
+	$fonts: (
+		'VCR OSD mono': (
+			400: 'VCR-OSD-mono'
+		)
+	),
+	$types: 'woff2'
+);
