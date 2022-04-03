@@ -6,12 +6,12 @@
 	onMount(async () => {
 		// const { default: matrix } = await import('../../../node_modules/cmatrix/dist/matrix.mjs')
 
-		const { default: matrix } = await import('./matrix')
+		const { default: cmatrix } = await import('./cmatrix')
 
 		const canvas = ctx
 		const buffer = b
 
-		const cm = matrix(canvas, buffer, {
+		const cm = cmatrix(canvas, buffer, {
 			chars: [
 				'A',
 				'B',
@@ -50,6 +50,7 @@
 <style>
 	canvas {
 		position: absolute;
+		left: 0px;
 		z-index: -1;
 		image-rendering: optimizeSpeed;
 		image-rendering: -moz-crisp-edges;

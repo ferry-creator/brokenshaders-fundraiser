@@ -2,9 +2,11 @@
 	import '../app.css'
 	import '../fonts/index.scss'
 	import CMatrix from '$lib/CMatrix/index.svelte'
+	import GradientFlicker from '$lib/GradientFlicker/index.svelte'
 </script>
 
 <CMatrix />
+<GradientFlicker />
 
 <main>
 	<slot />

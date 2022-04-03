@@ -17,7 +17,16 @@ var hiragana = null
 
 // ---------------------------------------------------------------
 class Matrix {
-	constructor(canvas, b, { chars = null, font_size = 30, width, height, color, background } = {}) {
+	constructor(
+		canvas,
+		b,
+		{ chars = null, font_size = 20, width, height, color, background } = {
+			width: null,
+			height: null,
+			color: null,
+			background: null
+		}
+	) {
 		this._canvas = canvas
 		this._ctx = canvas.getContext('2d')
 		this._b = b // buffer canvas

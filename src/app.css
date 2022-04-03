@@ -34,41 +34,6 @@ body {
 	margin: 0;
 	background-color: var(--primary-color);
 
-	/* background: linear-gradient(
-		270deg,
-		#c2c9cf,
-		#c2c9cf,
-		#c2c9cf,
-		#c2c9cf,
-		#c2c9cf,
-		#c2c9cf,
-		#c2c9cf,
-		#c2c9cf,
-		#c2c9cf,
-		#b6b1d7,
-		#e1eef0,
-		#c2c9cf,
-		#c2c9cf,
-		#c2c9cf,
-		#ffa989,
-		#c2c9cf,
-		#c2c9cf,
-		#c4cbd7,
-		#b7bcce,
-		#c2cacf,
-		#c2c9cf,
-		#c2c9cf,
-		#c2c9cf,
-		#c2c9cf
-	); */
-	background-image: url('/bgpix.png');
-	background-repeat: repeat;
-	background-size: 4800% 100%;
-
-	-webkit-animation: gradientFlicker 20s linear infinite;
-	-moz-animation: gradientFlicker 20s linear infinite;
-	animation: gradientFlicker 20s linear infinite;
-
 	image-rendering: optimizeSpeed;
 	image-rendering: -moz-crisp-edges;
 	image-rendering: -o-crisp-edges;
