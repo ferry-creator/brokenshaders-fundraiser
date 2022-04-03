@@ -64,6 +64,7 @@
 	}
 
 	.ctx {
+		/* z-index: -3; */
 		width: 100%;
 		height: 100%;
 	}
@@ -71,7 +72,7 @@
 	.bfr {
 		/* left: 100px;
 		bottom: 100px;
-		transform: scale(3, 5) translate(25%);
+		transform: scale(1, 5) translate(25%);
 		background: white;
 		padding: 0.5px; */
 

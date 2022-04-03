@@ -1,28 +1,25 @@
 const flicker = (canvas, buffer, { stops = [], font_size = 20 } = {}) => {
 	const ctx = canvas.getContext('2d')
 	const bfr = buffer.getContext('2d')
+	const breakpt = 700
 
-	// window.addEventListener('resize', (e) => {
-	//   resize(width())
-	// })
-
-	const columns = Math.round(width() / font_size / 4)
+	const w = width()
+	let columns = Math.round(w / font_size / (w > breakpt ? 4 : 1))
 
 	const zoom = 25
-	const gradientW = columns * zoom
+	let gradientW = columns * zoom
 
 	canvas.width = columns
 	canvas.height = 1
 	buffer.width = gradientW * 2
 	buffer.height = 1
 
-	const gradient = bfr.createLinearGradient(0, 0, gradientW, 0)
+	let gradient = bfr.createLinearGradient(0, 0, gradientW, 0)
 	for (let i = 0; i < stops.length; i++) {
 		const r = i / stops.length
 		gradient.addColorStop(r, stops[i])
 	}
 	bfr.fillStyle = gradient
-	for (let i = 0; i < 3; i++) {}
 	bfr.fillRect(0, 0, gradientW, 1)
 	bfr.drawImage(buffer, gradientW, 0, buffer.width, 1)
 
@@ -40,6 +37,26 @@ const flicker = (canvas, buffer, { stops = [], font_size = 20 } = {}) => {
 		idx += add
 	}
 	loop()
+
+	window.addEventListener('resize', (e) => {
+		const w = width()
+		columns = Math.round(w / font_size / (w > breakpt ? 4 : 2))
+		gradientW = columns * zoom
+
+		canvas.width = columns
+		buffer.width = gradientW * 2
+
+		gradient = bfr.createLinearGradient(0, 0, gradientW, 0)
+		for (let i = 0; i < stops.length; i++) {
+			const r = i / stops.length
+			gradient.addColorStop(r, stops[i])
+		}
+		bfr.fillStyle = gradient
+		bfr.fillRect(0, 0, gradientW, 1)
+		bfr.drawImage(buffer, gradientW, 0, buffer.width, 1)
+		idx = 0
+		add = 1
+	})
 }
 
 export default flicker
