@@ -17,20 +17,16 @@
 	--column-margin-top: 4rem;
 }
 
-@-webkit-keyframes gradientFlicker {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+html {
+	min-height: 100%;
+	position: relative;
 }
 
 body {
+	/* min-height: 100vh; */
+	/* height: 100%; */
 	min-height: 100vh;
+	height: 100%;
 	margin: 0;
 	background-color: var(--primary-color);
 
@@ -40,13 +36,6 @@ body {
 	image-rendering: -webkit-optimize-contrast;
 	image-rendering: pixelated;
 	image-rendering: optimize-contrast;
-
-	/* background: linear-gradient(
-		180deg,
-		var(--primary-color) 0%,
-		var(--secondary-color) 10.45%,
-		var(--tertiary-color) 41.35%
-	); */
 }
 
 body::before {

@@ -40,18 +40,10 @@
 	})
 </script>
 
-<div>
-	<canvas bind:this={ctx} class="ctx" />
-	<!-- <canvas bind:this={bfr} style="display:none" /> -->
-	<canvas bind:this={bfr} class="bfr" />
-</div>
+<canvas bind:this={ctx} class="ctx" />
+<canvas bind:this={bfr} class="bfr" />
 
 <style>
-	div {
-		overflow: hidden;
-		width: 100vw;
-	}
-
 	canvas {
 		position: absolute;
 		z-index: -2;
@@ -64,18 +56,11 @@
 	}
 
 	.ctx {
-		/* z-index: -3; */
 		width: 100%;
 		height: 100%;
 	}
 
 	.bfr {
-		/* left: 100px;
-		bottom: 100px;
-		transform: scale(1, 5) translate(25%);
-		background: white;
-		padding: 0.5px; */
-
 		display: none;
 	}
 </style>

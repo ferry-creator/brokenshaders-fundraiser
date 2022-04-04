@@ -175,5 +175,5 @@ function width() {
 
 // ---------------------------------------------------------------
 function height() {
-	return window.innerHeight
+	return document.height !== undefined ? document.height : document.body.offsetHeight
 }

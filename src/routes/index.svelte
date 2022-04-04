@@ -4,6 +4,7 @@
 
 <script>
 	import Progressbar from '$lib/Progressbar.svelte'
+	import Player from '$lib/Player/index.svelte'
 </script>
 
 <svelte:head>
@@ -20,6 +21,8 @@
 	</h2>
 
 	<p>Content</p>
+
+	<!-- <Player src="/tracks/demo.mp3" cover="/tracks/cover/demo.jpg" /> -->
 </section>
 
 <style lang="scss">
