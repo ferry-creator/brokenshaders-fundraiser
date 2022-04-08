@@ -22,7 +22,7 @@
 
 	<p>Content</p>
 
-	<!-- <Player src="/tracks/demo.mp3" cover="/tracks/cover/demo.jpg" /> -->
+	<Player src="/tracks/demo.mp3" cover="/tracks/cover/butterfly.jpg" />
 </section>
 
 <style lang="scss">
