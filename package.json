@@ -19,7 +19,9 @@
     "prettier-plugin-svelte": "^2.5.0",
     "sass": "^1.49.10",
     "svelte": "^3.46.0",
-    "svelte-preprocess": "^4.10.4"
+    "svelte-preprocess": "^4.10.4",
+    "ttf2woff": "^3.0.0",
+    "ttf2woff2": "^4.0.4"
   },
   "type": "module",
   "dependencies": {

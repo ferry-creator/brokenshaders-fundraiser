@@ -6,7 +6,17 @@
 	$fonts: (
 		'VCR OSD mono': (
 			400: 'VCR-OSD-mono'
-		)
+		),
+		// 'pixelsix': (
+		// 	400: 'pixelsix'
+		// ),
+		// 'cubicfive': (
+		// 	400: (
+		// 		normal: 'cubicfive-regular',
+		// 		italic: 'cubicfive-italic'
+		// 	),
+		// 	700: 'cubicfive-bold'
+		// )
 	),
-	$types: 'woff2'
+	$types: 'woff2' 'woff'
 );

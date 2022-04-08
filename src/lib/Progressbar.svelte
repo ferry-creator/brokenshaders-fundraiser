@@ -35,7 +35,7 @@
 
 	.bar {
 		margin: 2px 25px;
-		background: #dbe1e6;
+		background: var(--secondary-color);
 		border: 1px solid white;
 		.progress {
 			height: inherit;

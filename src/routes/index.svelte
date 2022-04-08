@@ -5,6 +5,9 @@
 <script>
 	import Progressbar from '$lib/Progressbar.svelte'
 	import Button from '$lib/Button.svelte'
+	import Terminal from '$lib/Terminal/index.svelte'
+	import TerminalLine from '$lib/Terminal/Line.svelte'
+	import Caret from '$lib/Terminal/Caret.svelte'
 	import Player from '$lib/Player/index.svelte'
 </script>
 
@@ -23,6 +26,14 @@
 	<h2>
 		Hi, this is my project <br /> <strong>broken💎shaders</strong>
 	</h2>
+	<Terminal>
+		<TerminalLine>
+			<a href="#">whoami</a> ?
+		</TerminalLine>
+		<TerminalLine>
+			<Caret />
+		</TerminalLine>
+	</Terminal>
 
 	<p>Content</p>
 
