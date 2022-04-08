@@ -113,6 +113,21 @@
 		}
 	}
 
+	@media (max-width: 720px) {
+		.cover {
+			width: 360px;
+			height: 360px;
+
+			span {
+				&.center-overlay {
+					width: 11%;
+					padding-bottom: 11%;
+					border-width: 10px;
+				}
+			}
+		}
+	}
+
 	/* .cd-overlay {
 		animation: 2s drift linear infinite;
 		position: absolute;
