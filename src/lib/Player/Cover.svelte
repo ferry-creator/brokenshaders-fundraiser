@@ -115,8 +115,8 @@
 
 	@media (max-width: 720px) {
 		.cover {
-			width: 256px;
-			height: 256px;
+			width: 80vw;
+			height: 80vw;
 
 			span {
 				&.center-overlay {
