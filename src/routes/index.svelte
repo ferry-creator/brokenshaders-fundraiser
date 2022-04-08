@@ -4,6 +4,7 @@
 
 <script>
 	import Progressbar from '$lib/Progressbar.svelte'
+	import Button from '$lib/Button.svelte'
 	import Player from '$lib/Player/index.svelte'
 </script>
 
@@ -15,6 +16,9 @@
 	<h1>Save my dead HDD</h1>
 
 	<Progressbar target={6000} raised={3000} />
+	<div style="padding-top: 20px">
+		<Button>SAVE</Button>
+	</div>
 
 	<h2>
 		Hi, this is my project <br /> <strong>broken💎shaders</strong>
