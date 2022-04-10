@@ -1,7 +1,9 @@
 <script>
 	import Terminal from '$lib/Terminal/index.svelte'
+	import TerminalNav from '$lib/Terminal/Nav.svelte'
 	import TerminalLine from '$lib/Terminal/Line.svelte'
 	import Caret from '$lib/Terminal/Caret.svelte'
+	import Webding from '$lib/IconWebding.svelte'
 	import typewriter from '../transitions/typewriter.js'
 
 	const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
@@ -62,6 +64,7 @@
 
 {#key changeOnMount}
 	<Terminal>
+		<TerminalNav />
 		{#if LINE >= 0}
 			<TerminalLine>
 				<span in:typewriter={{ speed: s, delay: 200 }}>Hello world.</span>
@@ -84,12 +87,28 @@
 				{#if LINE == 2} <Caret blink={blnk} /> {/if}
 			</TerminalLine>
 		{/if}
+		<!-- {#if LINE >= 3}
+			<TerminalLine>
+				<span in:typewriter={{ speed: s / 2, delay: 400 }}>This is </span><span
+					class="col"
+					in:typewriter={{ speed: s / 2, delay: 1000 }}
+				>
+					broken</span
+				><span in:typewriter={{ speed: s / 8, delay: 1400 }}>{`<^>`}</span><span
+					class="col"
+					in:typewriter={{ speed: s / 1.9, delay: 2500 }}
+					>shaders
+				</span>{#if LINE == 3}<Caret blink={blnk} />{/if}
+			</TerminalLine>
+		{/if} -->
 		{#if LINE >= 3}
 			<TerminalLine>
-				<span in:typewriter={{ speed: s / 2, delay: 400 }}> This is </span>
-				<span class="col" in:typewriter={{ speed: s / 2, delay: 1000 }}> broken</span><span
-					in:typewriter={{ speed: s / 8, delay: 1400 }}>{`<^>`}</span
-				><span class="col" in:typewriter={{ speed: s / 1.9, delay: 2500 }}
+				<span in:typewriter={{ speed: s / 2, delay: 400 }}>This is </span><span
+					class="col"
+					in:typewriter={{ speed: s / 2, delay: 1000 }}>broken</span
+				>{#await delay(2400)}<span in:typewriter={{ speed: s / 1.6, delay: 1750 }}>:diamond:</span
+					>{/await}<span />{#await delay(2400) then}<span class="webding">{` `}&#xe921;</span
+					>{/await}<span class="col" in:typewriter={{ speed: s / 1, delay: 2600 }}
 					>shaders
 				</span>{#if LINE == 3}<Caret blink={blnk} />{/if}
 			</TerminalLine>
@@ -125,5 +144,9 @@
 <style>
 	.col {
 		color: var(--accent-color);
+	}
+
+	.webding {
+		right: 4.5px;
 	}
 </style>

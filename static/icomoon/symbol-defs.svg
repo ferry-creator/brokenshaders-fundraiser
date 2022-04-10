@@ -1,0 +1,100 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-circle" viewBox="0 0 32 32">
+<path d="M8 4v2h-4v4h-4v16h4v4h4v4h16v-4h4v-4h4v-16h-4v-4h-4v-4h-16v2zM20 12v2h4v8h-4v4h-8v-4h-4v-8h4v-4h8v2z"></path>
+</symbol>
+<symbol id="icon-circle-semi" viewBox="0 0 32 32">
+<path d="M8 4v2h-4v4h-4v16h4v4h4v4h16v-4h4v-4h4v-16h-4v-4h-4v-4h-16v2zM20 8v2h4v4h4v8h-4v4h-4v4h-8v-4h-4v-4h-4v-8h4v-4h4v-4h8v2z"></path>
+</symbol>
+<symbol id="icon-circle-thin" viewBox="0 0 32 32">
+<path d="M8 4v2h-4v4h-4v16h4v4h4v4h16v-4h4v-4h4v-16h-4v-4h-4v-4h-16v2zM24 8v2h4v16h-4v4h-16v-4h-4v-16h4v-4h16v2z"></path>
+</symbol>
+<symbol id="icon-circle-half" viewBox="0 0 32 32">
+<path d="M8 4v2h-4v4h-4v16h4v4h4v4h16v-4h4v-4h4v-16h-4v-4h-4v-4h-16v2zM24 8v2h4v16h-4v4h-8v-24h8v2z"></path>
+</symbol>
+<symbol id="icon-dog" viewBox="0 0 32 32">
+<path d="M8 4v2h-8v8h8v16h-4v4h8v-8h12v4h-4v4h8v-20h4v-4h-4v4h-16v-12h-4v2z"></path>
+</symbol>
+<symbol id="icon-cat" viewBox="0 0 32 32">
+<path d="M0 8v6h4v4h4v4h-4v8h-4v4h4v-4h4v4h20v-4h4v-16h-4v16h-4v-4h-4v-4h-8v-4h4v-4h4v-12h-4v4h-12v-4h-4v6zM8 12v2h-4v-4h4v2zM16 12v2h-4v-4h4v2z"></path>
+</symbol>
+<symbol id="icon-bird" viewBox="0 0 32 32">
+<path d="M4 4v2h-4v4h4v20h8v4h4v-4h4v-4h8v-4h4v-4h-12v-4h-4v-12h-12v2zM12 8v2h-4v-4h4v2z"></path>
+</symbol>
+<symbol id="icon-fish" viewBox="0 0 32 32">
+<path d="M8 4v2h-4v4h-4v12h4v4h4v8h4v-4h4v-4h4v-4h4v4h4v4h4v-8h-4v-8h4v-8h-4v4h-4v4h-4v-8h-8v-4h-4v2zM8 12v2h-4v-4h4v2z"></path>
+</symbol>
+<symbol id="icon-octopus" viewBox="0 0 32 32">
+<path d="M4 4v2h-4v20h4v4h-4v4h8v-8h4v8h8v-8h4v8h8v-4h-4v-4h4v-20h-4v-4h-24v2zM8 20v2h-4v-4h4v2zM28 20v2h-4v-4h4v2z"></path>
+</symbol>
+<symbol id="icon-hooman" viewBox="0 0 32 32">
+<path d="M14.24 3.563v1.788h-3.573v3.52h3.573v3.573h-7.147v3.573h-3.52v7.093h3.52v-7.093h7.147v3.52h-3.573v14.24h3.573v-14.24h3.52v14.24h3.573v-14.24h-3.573v-3.52h7.147v7.093h3.52v-7.093h-3.52v-3.573h-7.147v-3.573h3.573v-3.52h-3.573v-3.573h-3.52v1.785zM17.76 7.111v1.76h-3.52v-3.52h3.52v1.76z"></path>
+</symbol>
+<symbol id="icon-buddy" viewBox="0 0 32 32">
+<path d="M8 4v2h4v4h-4v8h-4v4h-4v12h4v-4h8v4h4v-4h4v4h4v-12h4v-4h4v-8h-4v-4h4v-4h-4v4h-16v-4h-4v2zM16 12v2h-4v-4h4v2zM28 12v2h-4v-4h4v2z"></path>
+</symbol>
+<symbol id="icon-smile" viewBox="0 0 32 32">
+<path d="M8 12v2h4v-4h-4v2zM20 12v2h4v-4h-4v2zM4 20v2h4v4h16v-4h4v-4h-4v4h-16v-4h-4v2z"></path>
+</symbol>
+<symbol id="icon-rofl" viewBox="0 0 32 32">
+<path d="M8 8v2h-4v4h8v-8h-4v2zM20 10v4h8v-4h-4v-4h-4v4zM4 20v2h-4v4h4v4h4v4h16v-4h4v-4h4v-4h-4v-4h-24v2zM28 24v2h-4v4h-16v-4h-4v-4h24v2z"></path>
+</symbol>
+<symbol id="icon-meep" viewBox="0 0 32 32">
+<path d="M8 12v2h4v-4h-4v2zM20 12v2h4v-4h-4v2zM4 24v2h24v-4h-24v2z"></path>
+</symbol>
+<symbol id="icon-heart" viewBox="0 0 32 32">
+<path d="M4 8v2h-4v8h4v4h4v4h4v4h8v-4h4v-4h4v-4h4v-8h-4v-4h-8v4h-8v-4h-8v2zM12 12v2h8v-4h8v8h-4v4h-4v4h-8v-4h-4v-4h-4v-8h8v2z"></path>
+</symbol>
+<symbol id="icon-heart-full" viewBox="0 0 32 32">
+<path d="M4 8v2h-4v8h4v4h4v4h4v4h8v-4h4v-4h4v-4h4v-8h-4v-4h-8v4h-8v-4h-8v2z"></path>
+</symbol>
+<symbol id="icon-floppy" viewBox="0 0 32 32">
+<path d="M4 4v2h-4v28h32v-28h-4v-4h-24v2zM8 8v2h4v-4h8v4h4v-4h4v24h-4v-12h-16v12h-4v-24h4v2zM12 12v2h8v-4h-8v2zM20 26v4h-8v-8h8v4z"></path>
+</symbol>
+<symbol id="icon-doc" viewBox="0 0 32 32">
+<path d="M12 4v2h-4v4h-4v24h24v-32h-16v2zM16 10v4h-8v-4h4v-4h4v4zM24 18v12h-16v-12h12v-12h4v12z"></path>
+</symbol>
+<symbol id="icon-folders" viewBox="0 0 32 32">
+<path d="M4 6v4h-4v20h24v-4h4v-4h4v-16h-16v-4h-12v4zM16 8v2h12v12h-4v-8h-12v4h8v8h-16v-12h8v-4h-4v-4h8v2z"></path>
+</symbol>
+<symbol id="icon-lock" viewBox="0 0 32 32">
+<path d="M12 4v2h-4v8h-4v20h24v-20h-4v-8h-4v-4h-8v2zM20 10v4h-8v-8h8v4zM24 24v6h-16v-12h16v6z"></path>
+</symbol>
+<symbol id="icon-unlock" viewBox="0 0 32 32">
+<path d="M4 4v2h-4v8h4v-8h8v8h-4v20h24v-20h-16v-8h-4v-4h-8v2zM28 24v6h-16v-12h16v6z"></path>
+</symbol>
+<symbol id="icon-chip" viewBox="0 0 32 32">
+<path d="M8 6v4h-8v4h4v8h-4v4h8v8h4v-4h8v4h4v-8h8v-4h-4v-8h4v-4h-8v-8h-4v4h-8v-4h-4v4zM24 18v8h-16v-16h16v8zM12 18v4h8v-8h-8v4z"></path>
+</symbol>
+<symbol id="icon-fuckputin" viewBox="0 0 32 32">
+<path d="M12 6v4h-8v-4h-4v12h4v4h-4v8h4v4h24v-4h4v-8h-4v-16h-4v-4h-12v4zM24 10v4h-8v-8h8v4zM12 16v2h-8v-4h8v2zM12 24v2h4v-4h4v4h4v-4h4v4h-4v4h-4v-4h-4v4h-4v-4h-4v-4h4v2z"></path>
+</symbol>
+<symbol id="icon-reactjs" viewBox="0 0 32 32">
+<path d="M4 4v2h4v-4h-4v2zM24 4v2h4v-4h-4v2zM12 8v2h-4v8h-4v4h-4v12h32v-12h-4v-4h-4v-4h-4v-8h-8v2zM28 12v2h4v-4h-4v2zM20 16v2h-8v-4h8v2zM28 28v2h-12v-4h12v2z"></path>
+</symbol>
+<symbol id="icon-music" viewBox="0 0 32 32">
+<path d="M28 4v2h-8v4h-8v4h-4v12h-8v8h8v-4h4v-16h8v-4h4v16h-8v8h8v-4h4v-24h4v-4h-4v2z"></path>
+</symbol>
+<symbol id="icon-play" viewBox="0 0 32 32">
+<path d="M10.667 17.778v12.427h3.573v-3.52h3.52v-3.573h3.573v-3.573h3.573v-3.52h-3.573v-3.573h-3.573v-3.573h-3.52v-3.52h-3.573v12.427z"></path>
+</symbol>
+<symbol id="icon-stop" viewBox="0 0 32 32">
+<path d="M10.667 17.778v5.333h10.667v-10.667h-10.667v5.333z"></path>
+</symbol>
+<symbol id="icon-pause" viewBox="0 0 32 32">
+<path d="M10.667 17.778v5.333h3.573v-10.667h-3.573v5.333zM17.76 17.778v5.333h3.573v-10.667h-3.573v5.333z"></path>
+</symbol>
+<symbol id="icon-audio" viewBox="0 0 32 32">
+<path d="M14.24 3.563v1.788h-3.573v3.52h-3.573v3.573h-7.093v10.667h7.093v3.573h3.573v3.52h3.573v3.573h3.52v-32h-3.52v1.785zM24.907 7.111v1.76h3.52v17.813h-3.52v3.52h3.52v-3.52h3.573v-17.813h-3.573v-3.52h-3.52v1.76zM10.667 17.778v5.333h-3.573v-10.667h3.573v5.333zM21.333 17.778v5.333h3.573v-10.667h-3.573v5.333z"></path>
+</symbol>
+<symbol id="icon-mute" viewBox="0 0 32 32">
+<path d="M17.76 3.563v1.788h-3.52v3.52h-3.573v3.573h-7.093v10.667h7.093v3.573h3.573v3.52h3.52v3.573h3.573v-32h-3.573v1.785zM14.24 17.778v5.333h-3.573v-10.667h3.573v5.333z"></path>
+</symbol>
+<symbol id="icon-audiodown" viewBox="0 0 32 32">
+<path d="M14.24 3.563v1.788h-3.573v3.52h-3.573v3.573h-7.093v10.667h7.093v3.573h3.573v3.52h3.573v3.573h3.52v-32h-3.52v1.785zM10.667 17.778v5.333h-3.573v-10.667h3.573v5.333zM21.333 17.778v1.76h10.667v-3.52h-10.667v1.76z"></path>
+</symbol>
+<symbol id="icon-audioup" viewBox="0 0 32 32">
+<path d="M14.24 3.563v1.788h-3.573v3.52h-3.573v3.573h-7.093v10.667h7.093v3.573h3.573v3.52h3.573v3.573h3.52v-32h-3.52v1.785zM10.667 17.778v5.333h-3.573v-10.667h3.573v5.333zM24.907 14.229v1.788h-3.573v3.52h3.573v3.573h3.52v-3.573h3.573v-3.52h-3.573v-3.573h-3.52v1.785z"></path>
+</symbol>
+</defs>
+</svg>

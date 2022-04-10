@@ -20,3 +20,12 @@
 	),
 	$types: 'woff2' 'woff'
 );
+
+@include font-face(
+	$fonts: (
+		'broken OS webdings': (
+			400: 'broken-OS-webdings'
+		)
+	),
+	$types: 'woff'
+);
