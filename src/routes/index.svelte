@@ -28,7 +28,7 @@
 	</h2>
 	<Terminal>
 		<TerminalLine>
-			<a href="#">whoami</a> ?
+			<a href="/whoami">whoami</a> ?
 		</TerminalLine>
 		<TerminalLine>
 			<Caret />

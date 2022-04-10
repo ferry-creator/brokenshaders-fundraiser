@@ -1,4 +1,8 @@
-<span> █ </span>
+<script>
+	export let blink = true
+</script>
+
+<span class:blink> █ </span>
 
 <style>
 	@keyframes blink {
@@ -6,15 +10,19 @@
 			opacity: 0%;
 		}
 		30% {
-			opacity: 85%;
+			opacity: 75%;
 		}
 		100% {
-			opacity: 85%;
+			opacity: 75%;
 		}
 	}
 
-	span {
+	.blink {
 		animation: 800ms blink steps(1) infinite;
+	}
+
+	span {
 		user-select: none;
+		opacity: 75%;
 	}
 </style>
