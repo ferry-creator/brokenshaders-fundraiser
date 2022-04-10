@@ -2,7 +2,7 @@
 	export let blink = true
 </script>
 
-<span class:blink> █ </span>
+<span class:blink>█</span>
 
 <style>
 	@keyframes blink {

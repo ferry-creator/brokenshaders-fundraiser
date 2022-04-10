@@ -15,6 +15,9 @@
 var katagana = null
 var hiragana = null
 
+// original: 0.975
+const SPWNCHANCE = 0.975
+
 // ---------------------------------------------------------------
 class Matrix {
 	constructor(
@@ -49,7 +52,7 @@ class Matrix {
 		this._run = true
 		const self = this
 		;(function loop() {
-			if (frames++ % 2 === 0) {
+			if (frames++ % 3 === 0) {
 				self.render() // slower render
 			}
 			if (self._run) {
@@ -98,7 +101,7 @@ class Matrix {
 			const x = col * this._font_size
 			const y = this._drops[col] * this._font_size
 			this.render_char(char, x, y)
-			if (y > this._height && Math.random() > 0.975) {
+			if (y > this._height && Math.random() > SPWNCHANCE) {
 				this._drops[col] = 0
 			}
 			this._drops[col]++
