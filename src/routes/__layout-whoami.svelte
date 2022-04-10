@@ -3,9 +3,9 @@
 </main>
 
 <style>
-	:global(body) {
-		background: black;
-	}
+	/* :global(body) {
+		background-color: black;
+	} */
 
 	main {
 		background: black;

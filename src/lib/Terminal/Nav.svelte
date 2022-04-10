@@ -13,11 +13,23 @@
 		<li>
 			<span style="display: inline-block; width: 55px" />
 		</li>
-		<li>BROKEN-OS ~ 0.1</li>
-		<li>
-			<span style="display: inline-block" />
-		</li>
-		<li>2038 NULL</li>
+		<span class="desktop info">
+			<li>BROKEN-OS ~ 0.1</li>
+			<li>
+				<span style="display: inline-block" />
+			</li>
+			<li>2038 NULL</li>
+		</span>
+		<span class="mobile">
+			<span style="float:right">
+				<li>BROKEN-OS ~ 0.1</li>
+			</span>
+			<div class="info">
+				<div>
+					<li>2038 NULL</li>
+				</div>
+			</div>
+		</span>
 	</ul>
 </nav>
 
@@ -59,5 +71,25 @@
 	:global(.icon span) {
 		width: 19px !important;
 		transform: translate(6px, 0);
+	}
+
+	.mobile .info {
+		background: var(--accent-color-alt);
+		text-align: right;
+	}
+
+	.desktop {
+		display: initial;
+	}
+	.mobile {
+		display: none;
+	}
+	@media (max-width: 450px) {
+		.desktop {
+			display: none;
+		}
+		.mobile {
+			display: initial;
+		}
 	}
 </style>
