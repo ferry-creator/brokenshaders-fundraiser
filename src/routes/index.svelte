@@ -26,14 +26,16 @@
 	<h2>
 		Hi, this is my project <br /> <strong>broken💎shaders</strong>
 	</h2>
-	<Terminal>
-		<TerminalLine>
-			<a href="/whoami">whoami</a> ?
-		</TerminalLine>
-		<TerminalLine>
-			<Caret />
-		</TerminalLine>
-	</Terminal>
+	<div class="centerTerminal">
+		<Terminal>
+			<TerminalLine>
+				<a href="/whoami">whoami</a> ?
+			</TerminalLine>
+			<TerminalLine>
+				<Caret />
+			</TerminalLine>
+		</Terminal>
+	</div>
 
 	<p>Content</p>
 
@@ -47,6 +49,13 @@
 		justify-content: center;
 		align-items: center;
 		flex: 1;
+	}
+
+	.centerTerminal {
+		width: 100%;
+	}
+	:global(.centerTerminal > *) {
+		margin: auto;
 	}
 
 	h1 {
